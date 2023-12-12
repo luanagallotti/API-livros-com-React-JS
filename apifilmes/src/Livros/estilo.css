@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(218, 18, 141);
+    color:white;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    list-style-type: none;
+  }
+  li {
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    width: 150px;
+  }
+  .linkpagina {
+    color: white;
+  }
+  .conteudo {
+    background-color: pink;
+    text-align: center;
+  }
+  .listaResposta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    background-color: rgb(218, 17, 127);
+    color: rgb(211, 224, 228);
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 400px;
+  }
+
